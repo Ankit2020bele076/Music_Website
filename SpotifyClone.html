@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="SpotifyClone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="Tu Hai To Mujhe.jfif" alt="1">
+                    <span class="songName">Tu Hai To Mujhe</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cheques.jfif" alt="1">
+                    <span class="songName">Cheques</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Namo Namo.jfif" alt="1">
+                    <span class="songName">Namo Namo</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Ram Siya Ram.jfif" alt="1">
+                    <span class="songName">Ram Siya Ram</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Zihaal e Miskin.jfif" alt="1">
+                    <span class="songName">Zihaal e Miskin</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons  -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="1" id="gif"><span id="bottomName">Tu Hai To Mujhe</span>
+        </div>
+    </div>
+    <script src="SpotifyClone.js"></script>
+</body>
+</html>
